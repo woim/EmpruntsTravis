@@ -1,0 +1,10 @@
+DESCRIPTION DU DEPOT
+
+Depot qui contient des tests unitaires... exprimes avec cucumber, un
+outil de tests d'acceptation (sic).
+
+Cette facon inhabituelle de faire vise simplement a montrer, de facon
+simple, le role des steps pour faire le lien entre les scenarios et
+l'entite sous test.
+
+
