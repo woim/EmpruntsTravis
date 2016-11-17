@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+- 2.2.1
+notifications:
+email:
+recipients:
+- francoishebert@hotmail.fr
+on_success: always
+on_failure: always
