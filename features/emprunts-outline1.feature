@@ -12,6 +12,7 @@ Feature: Je veux pouvoir ajouter/supprimer des emprunts
     Then l'emprunteur de "<titre>" est "<emprunteur>"
 
     Examples:
-    | e  | titre                    | emprunteur |
-    # A COMPLETER!
-    | e1 | TITRE               | QUI        | 
+    | e  | titre                      | emprunteur |
+    | e1 | "Clean Code"               | "Joe"      |
+    | e2 | "The Clean Coder"          | "Jack"     | 
+    | e3 | "The Pragmatic Programmer" | "Averell"  |
