@@ -83,3 +83,15 @@ end
 Then(/^le "([^"]*)" du document (\d+) est "([^"]*)"$/) do |champ, num, valeur|
   assert_equal valeur, @selection[num.to_i].send(champ)
 end
+
+Then(/^l'emprunteur de "([^"]*)"Clean Code"([^"]*)" est "([^"]*)"Joe"([^"]*)"$/) do |arg1, arg2, arg3, arg4|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^l'emprunteur de "([^"]*)"The Clean Coder"([^"]*)" est "([^"]*)"Jack"([^"]*)"$/) do |arg1, arg2, arg3, arg4|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^l'emprunteur de "([^"]*)"The Pragmatic Programmer"([^"]*)" est "([^"]*)"Averell"([^"]*)"$/) do |arg1, arg2, arg3, arg4|
+  pending # Write code here that turns the phrase above into concrete actions
+end
